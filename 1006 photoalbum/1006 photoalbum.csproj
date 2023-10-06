@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>_1006_photoalbum</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\image1.png" />
+    <None Remove="images\image2.png" />
+    <None Remove="images\image3.png" />
+    <None Remove="images\image4.png" />
+    <None Remove="images\image5.png" />
+    <None Remove="images\image6.png" />
+    <None Remove="images\image7.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\image1.png" />
+    <Resource Include="images\image2.png" />
+    <Resource Include="images\image3.png" />
+    <Resource Include="images\image4.png" />
+    <Resource Include="images\image5.png" />
+    <Resource Include="images\image6.png" />
+    <Resource Include="images\image7.png" />
+  </ItemGroup>
+
+</Project>
