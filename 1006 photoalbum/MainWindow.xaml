@@ -7,22 +7,31 @@
         mc:Ignorable="d"
         Title="photo album" Height="450" Width="800">
     <Grid>
-        <TabControl HorizontalAlignment="Stretch" Margin="5" Name="tabControl1" VerticalAlignment="Stretch">
-            <TabItem Name="tabItem1">
+        <TabControl Background="AntiqueWhite"  HorizontalAlignment="Stretch" Margin="5" Name="tabControl1" VerticalAlignment="Stretch">
+            <TabItem Background="Bisque"  Name="tabItem1">
                 <TabItem.Header>
-                    <Image Source="images/image1.png" Width="100" Height="100"></Image>
+                    <StackPanel>
+                        <Image Source="images/image1.png" Width="50" Height="50"></Image>
+                        <TextBlock Foreground="BurlyWood"  Text="1" FontSize="25" FontFamily="Franklin Gothic Demi" FontWeight="Bold" RenderTransformOrigin="0.5,0.5"></TextBlock>
+                    </StackPanel>
                 </TabItem.Header>
                 <Image Source="images/image1.png" ></Image>
             </TabItem>
-            <TabItem Name="tabItem2" >
+            <TabItem Background="Bisque" Name="tabItem2" >
                 <TabItem.Header>
-                    <Image Source="images/image2.png" Width="100" Height="100"></Image>
+                    <StackPanel>
+                        <Image Source="images/image2.png" Width="50" Height="50"></Image>
+                        <TextBlock Foreground="BurlyWood"  Text="2" FontSize="25" FontFamily="Franklin Gothic Demi" FontWeight="Bold" RenderTransformOrigin="0.5,0.5"></TextBlock>
+                    </StackPanel>
                 </TabItem.Header>
                 <Image Source="images/image2.png" ></Image>
             </TabItem>
-            <TabItem Name="tabItem3">
+            <TabItem Background="Bisque" Name="tabItem3">
                 <TabItem.Header>
-                    <Image Source="images/image3.png" Width="100" Height="100"></Image>
+                    <StackPanel>
+                        <Image Source="images/image3.png" Width="50" Height="50"></Image>
+                        <TextBlock Foreground="BurlyWood"  Text="3" FontSize="25" FontFamily="Franklin Gothic Demi" FontWeight="Bold" RenderTransformOrigin="0.5,0.5"></TextBlock>
+                    </StackPanel>
                 </TabItem.Header>
                 <Image Source="images/image3.png" ></Image>
             </TabItem>
